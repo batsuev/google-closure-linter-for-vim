@@ -1,0 +1,11 @@
+Installation with pathogen:  
+'git clone git@github.com:batsuev/google-closure-linter-for-vim.git ~/.vim/bundle/google-closure-linter'  
+
+Manual installation:  
+'cd ~/.vim'  
+'mkdir ftplugin'  
+'cd ftplugin'  
+'wget https://raw.github.com/batsuev/google-closure-linter-for-vim/master/ftplugin/javascript.vim'  
+
+Usage:  
+':make' in js files + ':cprev', ':cnext'  
